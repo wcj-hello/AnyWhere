@@ -10,13 +10,13 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('..\\keystore\\AnyWhere.jks')
+            storeFile rootProject.file('keystore/AnyWhere.jks')
             storePassword 'AnyWhere'
             keyAlias 'AnyWhereKey'
             keyPassword 'AnyWhere'
         }
         release {
-            storeFile file('..\\keystore\\AnyWhere.jks')
+            storeFile rootProject.file('keystore/AnyWhere.jks')
             storePassword 'AnyWhere'
             keyAlias 'AnyWhereKey'
             keyPassword 'AnyWhere'
